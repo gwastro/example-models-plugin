@@ -23,7 +23,6 @@ setup (
     entry_points = {
         "pycbc.inference.models": ["test_poisson = pycbc_poisson_models:TestPoisson",
                                    "poisson_burst = pycbc_poisson_models:PoissonBurst",
-                                   "poisson_burst2 = pycbc_poisson_models:PoissonBurst2",
                                    ]
         },
     classifiers=[
